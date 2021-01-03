@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+    //Array destructuring
+   // let programming=['java', ' js', 'c++', 'c', 'react']
+   // let[top1,top2,top3,top4,top5]=programming;
+//    console.log(programming.length);
+    //console.log(` my favourite programming lang is ${top1} & ${top2}`);
+
+  //if you want to skip 2,3, index jump to last
+//   let [top1,,,,last ]=programming;
+//   console.log(`my first fav lang is ${top1} and second is ${last} `);
+
+//object destructuring
+ const biodata={
+        name:' shiv shati',
+        age:20,
+        city: ' muzaffarpur',
+        state:'Bihar',
+        country: 'India'
+    }
+    // let{name, age, city,state, country}=biodata;
+  
+//     console.log(biodata);
+//     console.log(` my name is  ${name} , i am ${age} years old i am from ${state}, my motherland is ${country}`);
+  // we can als0 remain the name
+ let{name:myname, age:myage, city:mycity, state:mystate, country:mycountry}=biodata;
+ console.log(` my name is  ${myname} , i am ${myage} years old i am from ${mystate}, my motherland is ${mycountry}`);
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

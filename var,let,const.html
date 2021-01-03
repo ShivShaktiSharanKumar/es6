@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+    //var is function scoped and let is block scoped, const is also a block scope but it cant be coverride it
+
+    // let check= ()=>
+    // {
+    //     let a=10;
+    //     if(true)
+    //     {
+    //         let a=20;
+    //         console.log(a);//print 20
+        
+    //     }
+    //     console.log(a);//print 10;
+    // };
+    // check();
+
+    // let check= ()=>
+    // {
+    //     var a=10;
+    //     if(true)
+    //     {
+    //         var a=20;
+    //         console.log(' printed number is ' +a);//print 20
+        
+    //     }
+    //     console.log(a);//print 20;// becuse var is  a function scope 
+    // };
+    // check();
+
+    const check= ()=>
+    {
+        const a=10;
+        if(true)
+        {
+            const a=20;
+            console.log(a);//print 20
+        
+        }
+        console.log(a);//print 10;
+    };
+    check();
+    
+
+    
+    
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //rest  parameter
+        const sum = (...inputs) =>//(triple dot (...) is a syntax of rest parameter and input use as an array)
+         {
+            console.log(inputs);//its print in form of arry
+            console.log(...inputs)//its give value of function 
+            let total=0;
+            for (let i of inputs){
+                total+=i;
+           
+            }
+                 console.log(total);
+         //its print total value which is paased in argemment 
+        }
+      sum(10,20,30,40);
+
+
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>
