@@ -7,4 +7,4 @@ Ask me about....HTML, CSS , JavaScript, React js ,Ajax,Java,c++, C, php
 #How to reach me https://www.linkedin.com/in/shiv-shakti-sharan-kumar-10b0791b9/ 😀
 
 
-<a href="https://www.linkedin.com/in/shiv-shakti-sharan-kumar-10b0791b9/" >reach me </a>
+<a href="https://www.linkedin.com/in/shiv-shakti-sharan-kumar-10b0791b9/" >my Linkdin profile  </a>
